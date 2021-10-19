@@ -20,7 +20,7 @@ nav a{
 }
 nav li{
   display: inline-block; /* moves the items in the lists from going straight down to going across */
-  margin-left: 100px; /* spaces out the list items so that theres space to the left of each item */
+  margin-left: 95px; /* spaces out the list items so that theres space to the left of each item */
   margin-right: 95px; /* same thing but opposite direction */
   margin-top: 10px;
   position: relative;
