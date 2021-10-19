@@ -1,4 +1,74 @@
-/*header {
-  background-color: black;
-  color: white;
+body{
+  margin: 0;
+  font-size: 20px;
+}
+.container{
+  background-color: red;
+}
+nav ul {
+  list-style: none; /*this removes the dot infront of the un ordered lists */
+  margin: 0;  /* this removes the empty space at the top of the webstite/ pushes the content all the way to the top */
+  padding: 0;  /* pushes content all the way to the left */
+}
+nav a{
+  color:aqua;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 100px;
+}
+nav li{
+  display: inline-block; /* moves the items in the lists from going straight down to going across */
+  margin-left: 100px; /* spaces out the list items so that theres space to the left of each item */
+  margin-right: 95px; /* same thing but opposite direction */
+  margin-top: 10px;
+  position: relative;
+}
+nav a:hover{
+  color: peru;
+}
+header {
+  color: aqua;
+  font-family: monospace;
+  text-align: center;
+}
+.intro h2{
+  text-align: center;
+}
+.all-browsers {
+  margin: 0;
+  padding: 5px;
+  background-color: red;
+}
+.all-browsers > h1, .browser {
+  margin: 10px;
+  padding: 5px;
+}
+.browser{
+  color:teal;
+  background: white;
+}
+.browser a:link{
+  text-decoration: none;
+}
+.browser a:visited{
+  color:blueviolet;
+  text-decoration: none;
+}
+.browser a:hover{
+  color: red;
+}
+.browser a:active{
+  color: peru;
+}
+h2{
+  text-align: center;
+}
+.habitat li:hover{
+  color: aqua;
+}
+.habitat a{
+  text-decoration: none;
+  color: black;
 }
